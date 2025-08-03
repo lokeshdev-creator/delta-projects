@@ -1,0 +1,110 @@
+body{
+    background-color: pink;
+    font-family: "Plus Jakarta Sams",sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+.container{
+    flex: 1;
+}
+
+/* Nav-Bar */
+.navbar{
+    height: 5rem;  
+    background-color: white;
+     font-weight: 600;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 3rem;
+    font-style: oblique;
+}
+.nav-link{
+    color: #222222 impot !important;
+}
+
+/* Footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links,.f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials i{
+    margin-right: 0.6rem;
+    font-size: 1.2rem;
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 7rem;
+    background-color: #F7F7F7;
+     flex-wrap:wrap ; 
+    justify-content: center;
+    align-items: space-evenly;
+}
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+
+/*Card Effect*/
+
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* New page */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* show Page  */
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right:0 ;
+}
+
+/* Map */
+#map{
+    height: 400px;
+    width: 80vh;
+}
